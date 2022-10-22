@@ -7,12 +7,82 @@ header{
 header a{
     color: darkgreen;
     text-decoration: none;
-    
+ 
 }
 .logo{
-    border: 1px solid;
+    border: 1px solid;    
+
 }
 div nav{
     border: 1px solid;
+}
 
+
+/*POSISION DE APRENDE A PROGRAMAS*/
+h1::before{
+    content: "";
+    width: 30px;
+    height: 67px;
+    position: absolute;
+    top: 20px;
+    left: -30px;
+    background-image: url("https://escuelasdecodigo.cdmx.gob.mx/wp-content/themes/escuelasdecodigo/dist/assets/hero-vector.svg");
+
+}
+.ima{
+    background-image: url("https://escuelasdecodigo.cdmx.gob.mx/wp-content/themes/escuelasdecodigo/dist/assets/hero.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+h1{
+    display: grid;
+    grid-template-columns: 146px 146px 481px;
+    grid-template-rows: 40px 80px 80px 35px;
+
+    background-image: url("https://escuelasdecodigo.cdmx.gob.mx/wp-content/themes/escuelasdecodigo/dist/assets/hero.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding: 50px;
+    color: white;
+    width: 60%;
+    margin: auto;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+ 
+}
+
+.SP1{
+    grid-column: 1/4;
+    grid-row: 1/2;
+    justify-self: start;
+    font-size: 40px;
+
+}
+.SP2{
+    grid-column: 2/3;
+    grid-row: 2/3;
+    justify-self: end;
+    font-size: 35px;
+}
+.SP3{
+    grid-column: 3/4;
+    grid-row: 2/4;
+    justify-self: start;
+    font-size: 80px;
+}
+.SP4{
+    grid-column: 3/4;
+    grid-row: 4/5;
+    justify-self: start;
+    font-size: 35px;
+}
+
+h2{
+    text-align: center;
+    color: chocolate;
+}
+p{
+    text-align: center;
+    color: gray;
+    font-size: 25px;
 }
