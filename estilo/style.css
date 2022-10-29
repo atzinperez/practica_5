@@ -1,33 +1,34 @@
-header{
-    display: flex;
-    justify-content: space-between;
-    align-items: flex-end;
-    border: 1px solid;
-}
+
 header a{
     color: darkgreen;
     text-decoration: none;
- 
+    margin-left: 3ch;
 }
 .logo{
-    border: 1px solid;    
-
+    padding: 2px 335px;
 }
 div nav{
-    border: 1px solid;
+    display: flex;
+    justify-content: flex-end;
+    padding: 10px 335px;    
+}
+
+hr{
+   
+    color: gainsboro;
 }
 
 
 /*POSISION DE APRENDE A PROGRAMAS*/
 h1::before{
     content: "";
-    width: 30px;
-    height: 67px;
+    width: 4.063rem;
+    height: 5.188rem;
     position: absolute;
-    top: 20px;
-    left: -30px;
+    top: 150px;
+    left: 310px;
     background-image: url("https://escuelasdecodigo.cdmx.gob.mx/wp-content/themes/escuelasdecodigo/dist/assets/hero-vector.svg");
-
+    background-repeat:no-repeat ;
 }
 .ima{
     background-image: url("https://escuelasdecodigo.cdmx.gob.mx/wp-content/themes/escuelasdecodigo/dist/assets/hero.jpg");
@@ -38,8 +39,7 @@ h1::before{
 h1{
     display: grid;
     grid-template-columns: 146px 146px 481px;
-    grid-template-rows: 40px 80px 80px 35px;
-
+    grid-template-rows: 40px 80px 85px 35px;
     background-image: url("https://escuelasdecodigo.cdmx.gob.mx/wp-content/themes/escuelasdecodigo/dist/assets/hero.jpg");
     background-repeat: no-repeat;
     background-size: cover;
@@ -76,10 +76,10 @@ h1{
     justify-self: start;
     font-size: 35px;
 }
-
+/*lo de pie de pagina(por decirlo asi*/
 h2{
     text-align: center;
-    color: chocolate;
+    color: #b08f5c;
 }
 p{
     text-align: center;
